@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0; 
+}
+nav{
+    background-color:rgb(22, 2, 2);
+    color:white;
+    padding: 30px;
+}
+li{
+  display: inline;
+  padding: 10px;
+  cursor: pointer;
+}
+ul{
+    margin-left: 30%;
+}
+h1,ul{
+    display: inline;
+}
+h1{
+    font-size: x-large;
+    
+}
+h1.hover{
+    color: white;
+}
+/* body{
+    background-image: url("https://cdn.bitrix24.com/b11752903/landing/9b8/9b871824b586fdd943769bc80aa4a3c8/WhatsApp_Image_2021-07-09_at_2.26.46_PM_2x_1x.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+} */
+.bg{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 600px;
+    z-index: 10;
+    position: relative;
+    width: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+.bg1{
+    background-image: url("https://cdn.bitrix24.com/b11752903/landing/9b8/9b871824b586fdd943769bc80aa4a3c8/WhatsApp_Image_2021-07-09_at_2.26.46_PM_2x_1x.jpeg");
+}
+input
+ {
+   width: 100%;
+    padding:5px;
+
+ }
+.search{
+    padding: 50px;
+    text-align: center;
+}
+h5{
+    color:black;
+    background-color:white;
+    font-family: 'Times New Roman', Times, serif;
+}
+.about
+{
+    text-align: center;
+    margin-top: 0px;
+    padding: 40px;
+    color: white;
+    background-color: black;
+}
+.contact
+{
+    background-color: black;
+    color: rgb(238, 232, 232);
+    text-align: center;
+    padding: 20px;
+}
+.bu{
+    background-color: transparent;
+    display: flex;
+    width: 50px;
+}
